@@ -70,9 +70,9 @@
 
 					<!-- Social Icons -->
 						<ul class="icons">
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon fa-whatsapp"><span class="label">whatsapp</span></a></li>
+							<li><a href="https://www.facebook.com/tiagopimentta" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-github"><span class="label" target="_blank">Github</span></a></li>
+							<li><a href="https://api.whatsapp.com/send?text=Acesse%20http://www.compredeksa.com.br/" class="icon fa-whatsapp" target="_blank"><span class="label">whatsapp</span></a></li>
 						</ul>
 				</div>
 
@@ -322,7 +322,7 @@
 								<div class="container">
 									<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 							        	<span class=""></span>
-							        	<span class="fa fa-phone"></span><span> (75) 9 9972-7723</span>
+							        	<span class="icon fa-phone"> (75) 9 9972-7723</span>
 									</div>
 									<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">							
 							        	<span class=""></span>
@@ -332,7 +332,12 @@
 						    </div>
 
 						    <br>
+						   
 
+						    <p>Widget WhatsApp Fixo na Lateral com Mensagens</p>
+                                            <a href="https://www.webcreative.com.br/artigo/widget-whatsapp-fixo-na-lateral-com-mensagens" title="Ler artigo Widget WhatsApp Fixo na Lateral com Mensagens">Ler artigo na íntegra</a>
+
+						    
 							<!-- <form method="post" action="#">
 								<div class="row">
 									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
@@ -358,6 +363,8 @@
 					</section>
 
 			</div>
+
+
 
 		<!-- Footer -->
 			<div id="footer">
@@ -390,6 +397,24 @@
 				    });
 				});
 			</script>
+
+		<!-- whatsapp flutuante -->
+			<script type="text/javascript">
+			 (function () {
+			 var options = {
+			 whatsapp: "+5575999727723", // Número do WhatsApp
+			 company_logo_url: "//www.webcreative.com.br/themes/webcreative/images/perfil.jpg", // URL com o logo da empresa
+			 greeting_message: "Olá! A primeira mensagem a ser exibida, escreva aqui.", // Texto principal
+			 call_to_action: "Qualquer Dúvida só chamar ;)", // Chamada para ação
+			 position: "right", // Posição do widget na página 'right' ou 'left'
+			 };
+			 var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+			 var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+			 s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+			 var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+			 })();
+			</script>
+		<!-- whatsapp flutuante -->		
 
 	</body>
 </html>
