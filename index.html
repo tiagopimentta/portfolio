@@ -35,6 +35,37 @@
 			._text-bold{
 				font-weight: bold;
 			}
+			.margintop{
+				margin-top: 1em;
+			}
+			.uledit{
+				float: left;
+				text-decoration: none;
+				margin: 0px;
+			}
+			.border-edit{
+				border: 1px solid #132;
+			}			
+			.box{
+				border: 1px solid #123;
+				border-radius:5px;
+				margin-top:-1em;
+				text-align: left;
+				padding: 10px;
+				font-size: 14px;
+				width: 100%;
+				line-height: 22px;
+				background-color: #fff;
+			}
+			.span-edi{
+				display: block;
+			}			
+			.black{
+				font-weight: bold;
+			}
+			a:hover{
+				text-decoration: none;
+			}
 		</style>
 	</head>
 	<body class="is-preload">
@@ -47,7 +78,6 @@
 					<!-- Logo -->
 						<div id="logo" >
 							<div class="text-center">
-								<!-- <span class="image avatar48"><img src="images/tiago.jpg" alt="" /></span> -->
 								<h1 id="title">Tiago Pimentta</h1>
 								<p>Developer Full Stack</p>
 							</div>
@@ -88,7 +118,7 @@
 							<header>
 								<h2 class="alt">Opá! Meu nome é <strong style="font-weight: bold;">Tiago</strong>!</h2>
 								<p>E esse é o meu portfolio :D</p>
-								<small>Atualizado 01/03/2018</small>
+								<small>Atualizado 15/05/2019</small>
 							</header>
 
 							<footer>
@@ -111,55 +141,64 @@
 							<div class="row">
 
 								<!-- 01 -->
-							<div class='list-group gallery'>
-					            <div class='col-xs-12 col-sm-6 col-md-6 col-lg-6'>
-					                <a class="thumbnail fancybox" rel="ligthbox" href="images/biolab.jpg">
-					                    <img class="img-responsive" alt="" src="images/biolab.jpg" />
-					                    <div class='text-left _text-small'>
-					                        <small class='text-muted _text-small'>
-					                        	<br>
-					                        		<b class="_text-bold">Descrição:</b> site/sistema de Agendamento Clínico Online <br />
-					                        		<b class="_text-bold">Funções:</b> Adicionar, Editar, Remover Agendamentos de pacientes online ou na clínica e agenda médica valores etc...<br />
-					                    	</small>
-					                    </div> <!-- text-left / end -->
+							<div class=	"list-group gallery">
+
+					            <div class='col-xs-12 col-sm-6 col-md-12 col-lg-6 margintop'>
+					                <a class="thumbnail fancybox border-edit" rel="ligthbox" href="images/cvm.png">
+					                    <img class="img-responsive" alt="" src="images/cvm.png" />
 					                </a>
-					            </div> <!-- col-6 / end -->
-					            <div class='col-xs-12 col-sm-6 col-md-6 col-lg-6'>
-					                <a class="thumbnail fancybox" rel="ligthbox" href="images/secof.jpg">
+			                    	<div class="box">
+			                    		<span class="span-edi"><b class="black">Sistema:</b> Sistema de E-commerce de Móveis Planejados.</span>		          	          
+			                    		<span class="span-edi"><b class="black">Recursos:</b> Integração com API Pagseguro, API Correios, CRUD de Adicionar prodtos, marcas, catégorias e usuários, Responsivo com painel administrativo também todo responsivo.</span>		          	          
+			                    		<span class="span-edi"><b class="black">Visite o site clicando </b> <a href="http://www.cvmplanejar.com.br" target="_blank"> Aqui</a></span>		          	          
+			                    	</div>
+					            </div> <!-- col-6 / end -->	
+
+					            <div class='col-xs-12 col-sm-6 col-md-12 col-lg-6 margintop'>
+					                <a class="thumbnail fancybox border-edit" rel="ligthbox" href="images/secof.jpg">
 					                    <img class="img-responsive" alt="" src="images/secof.jpg" />
-					                    <div class='text-left _text-small'>
-					                        <small class='text-muted _text-small'>
-					                        	<br>
-					                        		<b class="_text-bold">Descrição:</b> site/sistema de Agendamento Clínico e Funerário. <br />
-					                        		<b class="_text-bold">Funções:</b> Adicionar, Editar, Remover Agendamentos de pacientes online, clínica e agenda médica valores etc...<br />
-					                    	</small>
-					                    </div> <!-- text-left / end -->
 					                </a>
-					            </div> <!-- col-6 / end -->
-					            <div class='col-xs-12 col-sm-6 col-md-6 col-lg-6'>
-					                <a class="thumbnail fancybox" rel="ligthbox" href="images/sindefba.jpg">
+			                    	<div class="box">
+			                    		<span class="span-edi"><b class="black">Sistema:</b> site/sistema de Agendamento Clínico e Funerário. </span>		          	          
+			                    		<span class="span-edi"><b class="black">Recursos:</b> CRUD de Agendamentos de pacientes, consultas, eventos, slider, sobre nós, clientes, trabalhos realizados</span>		          	          
+			                    		<span class="span-edi"><b class="black">Visite o site clicando </b> <a href="http://www.secof.com.br" target="_blank"> Aqui</a></span>		          	          
+			                    	</div>
+					            </div> <!-- col-6 / end -->	
+
+					            <div class='col-xs-12 col-sm-6 col-md-12 col-lg-6 margintop' style="">
+					                <a class="thumbnail fancybox border-edit" rel="ligthbox" href="images/sindefba.jpg">
 					                    <img class="img-responsive" alt="" src="images/sindefba.jpg" />
-					                    <div class='text-left _text-small'>
-					                        <small class='text-muted _text-small'>
-					                        	<br>
-					                        		<b class="_text-bold">Descrição:</b> site/sistema de Organização Financeira.<br />
-					                        		<b class="_text-bold">Funções:</b> Adicionar, Editar, Remover acesso de associados, publicações, eventos, postagens com interligação em redes sociais, Associados, painel ADM e Usuário, Geolocalização, push notification, etc... <br />
-					                    	</small>
-					                    </div> <!-- text-left / end -->
 					                </a>
-					            </div> <!-- col-6 / end -->
-					            <div class='col-xs-12 col-sm-6 col-md-6 col-lg-6'>
-					                <a class="thumbnail fancybox" rel="ligthbox" href="images/vividantas.jpg">
-					                    <img class="img-responsive" alt="" src="images/vividantas.jpg" />
-					                    <div class='text-left _text-small'>
-					                        <small class='text-muted _text-small'>
-					                        	<br>
-					                        		<b class="_text-bold">Descrição:</b> site/sistema de Organização Finaceira e estoque.<br />
-					                        		<b class="_text-bold">Funções:</b> Adicionar, Editar, Remover acesso de Atendentes, contratos, vestidos, vales etc...<br />
-					                    	</small>
-					                    </div> <!-- text-left / end -->
+			                    	<div class="box">
+			                    		<span class="span-edi"><b class="black">Sistema:</b> site/sistema de Organização Financeira.</span>		          	          
+			                    		<span class="span-edi"><b class="black">Recursos:</b>  Adicionar, Editar, Remover acesso de associados, publicações, eventos, postagens com interligação em redes sociais, Associados, painel ADM e Usuário</span>		          	          
+			                    		<span class="span-edi"><b class="black">Visite o site clicando </b> <a href="http://www.sindefba.com.br" target="_blank"> Aqui</a></span>		          	          
+			                    	</div>
+					            </div> <!-- col-6 / end -->	
+
+					            <div class='col-xs-12 col-sm-6 col-md-12 col-lg-6 margintop'>
+					                <a class="thumbnail fancybox border-edit" rel="ligthbox" href="images/cotfarm.png">
+					                    <img class="img-responsive" alt="" src="images/cotfarm.png" />
 					                </a>
-					            </div> <!-- col-6 / end -->
+			                    	<div class="box">
+			                    		<span class="span-edi"><b class="black">Sistema:</b> Sistema de Cotação de Preços.</span>		          	          
+			                    		<span class="span-edi"><b class="black">Recursos:</b>  Adicionar, Editar, Remover acesso de associados, publicações, eventos, postagens com interligação em redes sociais, Associados, painel ADM e Usuário</span>		          	          
+			                    		<span class="span-edi"><b class="black">Visite o site clicando </b> <a href="http://www.cotfarm.com.br" target="_blank"> Aqui</a></span>		          	          
+			                    	</div>
+					            </div> <!-- col-6 / end -->	
+
+					            <div class='col-xs-12 col-sm-6 col-md-12 col-lg-6 margintop'>
+					                <a class="thumbnail fancybox border-edit" rel="ligthbox" href="images/macrofunner.png">
+					                    <img class="img-responsive" alt="" src="images/macrofunner.png" />
+					                </a>
+			                    	<div class="box">
+			                    		<span class="span-edi"><b class="black">Sistema:</b> Sistema Financeiro Funerário</span>		          	          
+			                    		<span class="span-edi"><b class="black">Recursos:</b>CRUD de Clientes, Pagamentos, Convalecentes, Caixa, Usuários, Estoque e Vendedores.</span>		          	          
+			                    		<span class="span-edi"><b class="black">Visite o site clicando </b> <a href="http://www.helpcd.online" target="_blank"> Aqui</a></span>		          	          
+			                    	</div>
+					            </div> <!-- col-6 / end -->	
+
+
 				        	</div> <!-- list-group / end -->
 								
 
@@ -206,18 +245,6 @@
 					        </div>
 
 					        <br>
-
-					        <!-- <div class="progress _pading">
-
-					            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-					                <span class="sr-only">20% Complete (info)</span>
-					            <span class="progress-type _text-small">--</span>
-					            </div>
-					            <span class="progress-completed"></span>
-
-					        </div>
-
-					        <br> -->
 
 							<p>Frameworks</p>
 
@@ -315,10 +342,7 @@
 								<div class="col-sm-8 text-left">
 									<p>Cursando Analise e Desenvolvimento de Sistemas pela universidade UNIT. Já diplomado de Programador Pleno pela mesma. Em caminho para Analista de Sistemas! <br/>
 									Já realizando trabalhos com sistemas web e também local para setores funerários e clínicos. Com experiência de mais de 2 anos.
-									Amante de tecnologia e sempre buscando recriar e/ou melhorar o que já existe.</p>
-
-									<span class="fa fa-check"></span> <span>Experiência em Trabalhos Remotos  (1 ano)</span><br>
-									<span class="fa fa-check"></span> <span>Experiência em Design Gráfico (freelancer)</span><br>
+									Amante de tecnologia e sempre buscando inovação</p>
 
 								</div>
 
@@ -353,28 +377,6 @@
 						    </div>
 
 						    <br>
-
-						    
-							<!-- <form method="post" action="#">
-								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="E-mail" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Telefone" /></div>
-									<div class="col-6 col-12-mobile">
-										<select name="">
-											<option value="">Assunto</option>
-											<option value="1">Dúvidas</option>
-											<option value="2">Perguntas</option>
-										</select>
-									</div>
-									<div class="col-12">
-										<textarea name="message" placeholder="Messagem"></textarea>
-									</div>
-									<div class="col-12">
-										<input type="submit" value="Enviar" />
-									</div>
-								</div>
-							</form> -->
 
 						</div>
 					</section>
@@ -421,8 +423,9 @@
 			 var options = {
 			 whatsapp: "+5575999727723", // Número do WhatsApp
 			 // company_logo_url: "", // URL com o logo da empresa
-			 greeting_message: "Olá! A primeira mensagem a ser exibida, escreva aqui.", // Texto principal
-			 call_to_action: "Qualquer Dúvida só chamar ;)", // Chamada para ação
+			 greeting_message: "Olá!, Seja bem vindo(a) ao meu Portfolio :P", // Texto principal
+			 // greeting_message: "Olá! A primeira mensagem a ser exibida, escreva aqui.", // Texto principal
+			 call_to_action: "Qualquer dúvida só chamar ;)", // Chamada para ação
 			 position: "right", // Posição do widget na página 'right' ou 'left'
 			 };
 			 var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
